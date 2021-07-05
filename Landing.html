@@ -10,7 +10,7 @@
 
   <body>   
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-color: rgb(115, 204, 204);">
           <a class="navbar-brand" href="landing.html">LATITUDE</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,46 +61,48 @@
             </div>
           </div>
     </div>  
-        <H2>Visualizations</H2>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <div class="card">
-                    <img id="bio-image" src="Resources/Cloudiness.png" alt="Clouds">
-                  <div class="card-body">
-                    <button type="button" class="btn btn-light" ><a href="cloudiness.html" >Cloudiness</a></button>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                    <img id="bio-image" src="Resources/Humidity.png" alt="Humidity">
-                  <div class="card-body">
-                    <button type="button" class="btn btn-light" ><a href="humidity.html" >Humidity</a></button>
-                  </div>
-                </div>
-              </div>
-              <br></br> 
+        <H4>Visualizations</H4>
+              <!--small images-->   
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col-sm-3">
+        <div class="card">
+            <img id="bio-image" src="Resources/Cloudiness.png" alt="Clouds">
+          <div class="card-body">
+            <button type="button" class="btn btn-light" ><a href="cloudiness.html" >Cloudiness</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+            <img id="bio-image" src="Resources/Humidity.png" alt="Humidity">
+          <div class="card-body">
+            <button type="button" class="btn btn-light" ><a href="humidity.html" >Humidity</a></button>
+          </div>
+        </div>
+      </div>
+      <br></br> 
 
-              <div class="col">
-                <div class="card">
-                    <img id="bio-image" src="Resources/MaxTemp.png" alt="Max Temperature">
-                  <div class="card-body">
-                    <button type="button" class="btn btn-light" ><a href="max_temp.html" >Max Temp</a></button>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                    <img id="bio-image" src="Resources/WindSpeed.png" alt="wind Speed">
-                  <div class="card-body">
-                    <form id="a2" method="get" action="Resources/WindSpeed.png">
-                    <button type="button" class="btn btn-light" ><a href="windspeed.html" >Wind Speed</a></button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
+      <div class="col-sm-3">
+        <div class="card">
+            <img id="bio-image" src="Resources/MaxTemp.png" alt="Max Temperature">
+          <div class="card-body">
+            <button type="button" class="btn btn-light" ><a href="max_temp.html" >Max Temp</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+            <img id="bio-image" src="Resources/WindSpeed.png" alt="wind Speed">
+          <div class="card-body">
+            <form id="a2" method="get" action="Resources/WindSpeed.png">
+            <button type="button" class="btn btn-light" ><a href="windspeed.html" >Wind Speed</a></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>         
+
 
   </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
