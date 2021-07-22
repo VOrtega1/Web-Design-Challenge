@@ -8,7 +8,7 @@ Data is more powerful when we share it with others! Let's take what we've learne
 ![Images/landingResize.png](Images/landingResize.png)
 
 Web Link
-https://github.com/VOrtega1/VOrtega1.github.io
+https://vortega1.github.io/Web-Design-Challenge/
 
 ### Before You Begin
 
